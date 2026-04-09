@@ -1,14 +1,57 @@
-body {
-	background-color: lightgoldenrodyellow;
-	font-family: Arial, sans-serif;
-	margin: 50px;
-}
-p {
-  color: black;
-  font-size: 24px;
+
+/* Use inline-size for width */
+/* padding: 50px */
+
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes logo and links to opposite ends */
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 2rem;
+  color: white;
 }
 
-ul {
+/* Remove default list styling */
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the individual links */
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+  color: #04AA6D; /* Highlight color on hover */
+}
+
+body {
+  background-color: #F0EBE2;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+p {
+  color: black;
+  font-size: 14px;
+  margin: 30px;
+}
+
+/* margin block is space between paragraphs */
+
+/*ul {
   color: black;
   font-size: 24px;
-}
+}*/
